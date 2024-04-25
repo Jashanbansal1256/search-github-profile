@@ -1,10 +1,11 @@
 import './App.css';
+import GitHubProfileFinder from './components/search';
 
 function App() {
   return (
     <div className="App">
-     hello
-    </div>
+      <GitHubProfileFinder></GitHubProfileFinder>
+          </div>
   );
 }
 
